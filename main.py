@@ -107,7 +107,7 @@ def get_astros_scores(data):
 
 
 def get_astros_scores():
-    response = requests.get('http://localhost:3000/api/astros-playing')
+    response = requests.get('https://neon-code.vercel.app/api/astros-playing')
 
     data = response.json()
     if data["playing"] == False:
