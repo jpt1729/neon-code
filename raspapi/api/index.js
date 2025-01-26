@@ -4,7 +4,7 @@ const port = 3000;
 
 app.get("/api/astros-playing", async (req, res) => {
   const scheduledGames = await fetch(
-    "https://statsapi.mlb.com/api/v1/schedule/games/?sportId=1&startDate=2019-09-14&endDate=2019-09-14"
+    process.env.API_URL
   );
   const data = await scheduledGames.json();
   if (data.totalGames === 0) {
