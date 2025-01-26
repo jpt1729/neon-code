@@ -1,0 +1,1254 @@
+{
+    "copyright": "Copyright 2025 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt",
+    "totalItems": 16,
+    "totalEvents": 0,
+    "totalGames": 16,
+    "totalGamesInProgress": 0,
+    "dates": [
+      {
+        "date": "2019-09-14",
+        "totalItems": 16,
+        "totalEvents": 0,
+        "totalGames": 16,
+        "totalGamesInProgress": 0,
+        "games": [
+          {
+            "gamePk": 565388,
+            "gameGuid": "756d4e5f-7f37-4be7-9f71-2c56ea567949",
+            "link": "/api/v1.1/game/565388/feed/live",
+            "gameType": "R",
+            "season": "2019",
+            "gameDate": "2019-09-14T17:10:00Z",
+            "officialDate": "2019-09-14",
+            "rescheduledFrom": "2019-09-13T23:10:00Z",
+            "rescheduledFromDate": "2019-09-13",
+            "status": {
+              "abstractGameState": "Final",
+              "codedGameState": "F",
+              "detailedState": "Final",
+              "statusCode": "F",
+              "startTimeTBD": false,
+              "abstractGameCode": "F"
+            },
+            "teams": {
+              "away": {
+                "leagueRecord": {
+                  "wins": 90,
+                  "losses": 57,
+                  "pct": ".612"
+                },
+                "score": 2,
+                "team": {
+                  "id": 142,
+                  "name": "Minnesota Twins",
+                  "link": "/api/v1/teams/142"
+                },
+                "isWinner": true,
+                "splitSquad": false,
+                "seriesNumber": 48
+              },
+              "home": {
+                "leagueRecord": {
+                  "wins": 86,
+                  "losses": 62,
+                  "pct": ".581"
+                },
+                "score": 0,
+                "team": {
+                  "id": 114,
+                  "name": "Cleveland Indians",
+                  "link": "/api/v1/teams/114"
+                },
+                "isWinner": false,
+                "splitSquad": false,
+                "seriesNumber": 48
+              }
+            },
+            "venue": {
+              "id": 5,
+              "name": "Progressive Field",
+              "link": "/api/v1/venues/5"
+            },
+            "content": {
+              "link": "/api/v1/game/565388/content"
+            },
+            "isTie": false,
+            "gameNumber": 1,
+            "publicFacing": true,
+            "doubleHeader": "S",
+            "gamedayType": "P",
+            "tiebreaker": "N",
+            "calendarEventID": "14-565388-2019-09-14",
+            "seasonDisplay": "2019",
+            "dayNight": "day",
+            "description": "Makeup of 9/13 PPD",
+            "scheduledInnings": 9,
+            "reverseHomeAwayStatus": false,
+            "inningBreakLength": 120,
+            "gamesInSeries": 3,
+            "seriesGameNumber": 1,
+            "seriesDescription": "Regular Season",
+            "recordSource": "S",
+            "ifNecessary": "N",
+            "ifNecessaryDescription": "Normal Game"
+          },
+          {
+            "gamePk": 565389,
+            "gameGuid": "16449f48-a883-4991-9531-533ade3ba9c5",
+            "link": "/api/v1.1/game/565389/feed/live",
+            "gameType": "R",
+            "season": "2019",
+            "gameDate": "2019-09-14T23:10:00Z",
+            "officialDate": "2019-09-14",
+            "status": {
+              "abstractGameState": "Final",
+              "codedGameState": "F",
+              "detailedState": "Final",
+              "statusCode": "F",
+              "startTimeTBD": false,
+              "abstractGameCode": "F"
+            },
+            "teams": {
+              "away": {
+                "leagueRecord": {
+                  "wins": 91,
+                  "losses": 57,
+                  "pct": ".615"
+                },
+                "score": 9,
+                "team": {
+                  "id": 142,
+                  "name": "Minnesota Twins",
+                  "link": "/api/v1/teams/142"
+                },
+                "isWinner": true,
+                "splitSquad": false,
+                "seriesNumber": 48
+              },
+              "home": {
+                "leagueRecord": {
+                  "wins": 86,
+                  "losses": 63,
+                  "pct": ".577"
+                },
+                "score": 5,
+                "team": {
+                  "id": 114,
+                  "name": "Cleveland Indians",
+                  "link": "/api/v1/teams/114"
+                },
+                "isWinner": false,
+                "splitSquad": false,
+                "seriesNumber": 48
+              }
+            },
+            "venue": {
+              "id": 5,
+              "name": "Progressive Field",
+              "link": "/api/v1/venues/5"
+            },
+            "content": {
+              "link": "/api/v1/game/565389/content"
+            },
+            "isTie": false,
+            "gameNumber": 2,
+            "publicFacing": true,
+            "doubleHeader": "S",
+            "gamedayType": "P",
+            "tiebreaker": "N",
+            "calendarEventID": "14-565389-2019-09-14",
+            "seasonDisplay": "2019",
+            "dayNight": "night",
+            "scheduledInnings": 9,
+            "reverseHomeAwayStatus": false,
+            "inningBreakLength": 120,
+            "gamesInSeries": 3,
+            "seriesGameNumber": 2,
+            "seriesDescription": "Regular Season",
+            "recordSource": "S",
+            "ifNecessary": "N",
+            "ifNecessaryDescription": "Normal Game"
+          },
+          {
+            "gamePk": 565196,
+            "gameGuid": "25ca800c-5a4d-4479-8ffc-aad7cb387b6f",
+            "link": "/api/v1.1/game/565196/feed/live",
+            "gameType": "R",
+            "season": "2019",
+            "gameDate": "2019-09-14T18:20:00Z",
+            "officialDate": "2019-09-14",
+            "status": {
+              "abstractGameState": "Final",
+              "codedGameState": "F",
+              "detailedState": "Final",
+              "statusCode": "F",
+              "startTimeTBD": false,
+              "abstractGameCode": "F"
+            },
+            "teams": {
+              "away": {
+                "leagueRecord": {
+                  "wins": 65,
+                  "losses": 84,
+                  "pct": ".436"
+                },
+                "score": 1,
+                "team": {
+                  "id": 134,
+                  "name": "Pittsburgh Pirates",
+                  "link": "/api/v1/teams/134"
+                },
+                "isWinner": false,
+                "splitSquad": false,
+                "seriesNumber": 48
+              },
+              "home": {
+                "leagueRecord": {
+                  "wins": 80,
+                  "losses": 68,
+                  "pct": ".541"
+                },
+                "score": 14,
+                "team": {
+                  "id": 112,
+                  "name": "Chicago Cubs",
+                  "link": "/api/v1/teams/112"
+                },
+                "isWinner": true,
+                "splitSquad": false,
+                "seriesNumber": 49
+              }
+            },
+            "venue": {
+              "id": 17,
+              "name": "Wrigley Field",
+              "link": "/api/v1/venues/17"
+            },
+            "content": {
+              "link": "/api/v1/game/565196/content"
+            },
+            "isTie": false,
+            "gameNumber": 1,
+            "publicFacing": true,
+            "doubleHeader": "N",
+            "gamedayType": "P",
+            "tiebreaker": "N",
+            "calendarEventID": "14-565196-2019-09-14",
+            "seasonDisplay": "2019",
+            "dayNight": "day",
+            "scheduledInnings": 9,
+            "reverseHomeAwayStatus": false,
+            "inningBreakLength": 120,
+            "gamesInSeries": 3,
+            "seriesGameNumber": 2,
+            "seriesDescription": "Regular Season",
+            "recordSource": "S",
+            "ifNecessary": "N",
+            "ifNecessaryDescription": "Normal Game"
+          },
+          {
+            "gamePk": 566937,
+            "gameGuid": "f10a4624-d5ce-4004-9443-092abfd7276e",
+            "link": "/api/v1.1/game/566937/feed/live",
+            "gameType": "R",
+            "season": "2019",
+            "gameDate": "2019-09-14T19:07:00Z",
+            "officialDate": "2019-09-14",
+            "status": {
+              "abstractGameState": "Final",
+              "codedGameState": "F",
+              "detailedState": "Final",
+              "statusCode": "F",
+              "startTimeTBD": false,
+              "abstractGameCode": "F"
+            },
+            "teams": {
+              "away": {
+                "leagueRecord": {
+                  "wins": 98,
+                  "losses": 52,
+                  "pct": ".653"
+                },
+                "score": 13,
+                "team": {
+                  "id": 147,
+                  "name": "New York Yankees",
+                  "link": "/api/v1/teams/147"
+                },
+                "isWinner": true,
+                "splitSquad": false,
+                "seriesNumber": 48
+              },
+              "home": {
+                "leagueRecord": {
+                  "wins": 58,
+                  "losses": 91,
+                  "pct": ".389"
+                },
+                "score": 3,
+                "team": {
+                  "id": 141,
+                  "name": "Toronto Blue Jays",
+                  "link": "/api/v1/teams/141"
+                },
+                "isWinner": false,
+                "splitSquad": false,
+                "seriesNumber": 48
+              }
+            },
+            "venue": {
+              "id": 14,
+              "name": "Rogers Centre",
+              "link": "/api/v1/venues/14"
+            },
+            "content": {
+              "link": "/api/v1/game/566937/content"
+            },
+            "isTie": false,
+            "gameNumber": 1,
+            "publicFacing": true,
+            "doubleHeader": "N",
+            "gamedayType": "P",
+            "tiebreaker": "N",
+            "calendarEventID": "14-566937-2019-09-14",
+            "seasonDisplay": "2019",
+            "dayNight": "day",
+            "scheduledInnings": 9,
+            "reverseHomeAwayStatus": false,
+            "inningBreakLength": 120,
+            "gamesInSeries": 3,
+            "seriesGameNumber": 2,
+            "seriesDescription": "Regular Season",
+            "recordSource": "S",
+            "ifNecessary": "N",
+            "ifNecessaryDescription": "Normal Game"
+          },
+          {
+            "gamePk": 565967,
+            "gameGuid": "6f9ae094-23a6-4b5e-8f80-50c0686bdf25",
+            "link": "/api/v1.1/game/565967/feed/live",
+            "gameType": "R",
+            "season": "2019",
+            "gameDate": "2019-09-14T20:05:00Z",
+            "officialDate": "2019-09-14",
+            "status": {
+              "abstractGameState": "Final",
+              "codedGameState": "F",
+              "detailedState": "Final",
+              "statusCode": "F",
+              "startTimeTBD": false,
+              "abstractGameCode": "F"
+            },
+            "teams": {
+              "away": {
+                "leagueRecord": {
+                  "wins": 93,
+                  "losses": 57,
+                  "pct": ".620"
+                },
+                "score": 10,
+                "team": {
+                  "id": 144,
+                  "name": "Atlanta Braves",
+                  "link": "/api/v1/teams/144"
+                },
+                "isWinner": true,
+                "splitSquad": false,
+                "seriesNumber": 49
+              },
+              "home": {
+                "leagueRecord": {
+                  "wins": 81,
+                  "losses": 66,
+                  "pct": ".551"
+                },
+                "score": 1,
+                "team": {
+                  "id": 120,
+                  "name": "Washington Nationals",
+                  "link": "/api/v1/teams/120"
+                },
+                "isWinner": false,
+                "splitSquad": false,
+                "seriesNumber": 48
+              }
+            },
+            "venue": {
+              "id": 3309,
+              "name": "Nationals Park",
+              "link": "/api/v1/venues/3309"
+            },
+            "content": {
+              "link": "/api/v1/game/565967/content"
+            },
+            "isTie": false,
+            "gameNumber": 1,
+            "publicFacing": true,
+            "doubleHeader": "N",
+            "gamedayType": "P",
+            "tiebreaker": "N",
+            "calendarEventID": "14-565967-2019-09-14",
+            "seasonDisplay": "2019",
+            "dayNight": "day",
+            "scheduledInnings": 9,
+            "reverseHomeAwayStatus": false,
+            "inningBreakLength": 120,
+            "gamesInSeries": 3,
+            "seriesGameNumber": 2,
+            "seriesDescription": "Regular Season",
+            "recordSource": "S",
+            "ifNecessary": "N",
+            "ifNecessaryDescription": "Normal Game"
+          },
+          {
+            "gamePk": 565582,
+            "gameGuid": "27e2368e-5ff0-4f58-b215-9a856b6b611a",
+            "link": "/api/v1.1/game/565582/feed/live",
+            "gameType": "R",
+            "season": "2019",
+            "gameDate": "2019-09-14T22:10:00Z",
+            "officialDate": "2019-09-14",
+            "status": {
+              "abstractGameState": "Final",
+              "codedGameState": "F",
+              "detailedState": "Final",
+              "statusCode": "F",
+              "startTimeTBD": false,
+              "abstractGameCode": "F"
+            },
+            "teams": {
+              "away": {
+                "leagueRecord": {
+                  "wins": 48,
+                  "losses": 100,
+                  "pct": ".324"
+                },
+                "score": 4,
+                "team": {
+                  "id": 110,
+                  "name": "Baltimore Orioles",
+                  "link": "/api/v1/teams/110"
+                },
+                "isWinner": false,
+                "splitSquad": false,
+                "seriesNumber": 48
+              },
+              "home": {
+                "leagueRecord": {
+                  "wins": 44,
+                  "losses": 103,
+                  "pct": ".299"
+                },
+                "score": 8,
+                "team": {
+                  "id": 116,
+                  "name": "Detroit Tigers",
+                  "link": "/api/v1/teams/116"
+                },
+                "isWinner": true,
+                "splitSquad": false,
+                "seriesNumber": 48
+              }
+            },
+            "venue": {
+              "id": 2394,
+              "name": "Comerica Park",
+              "link": "/api/v1/venues/2394"
+            },
+            "content": {
+              "link": "/api/v1/game/565582/content"
+            },
+            "isTie": false,
+            "gameNumber": 1,
+            "publicFacing": true,
+            "doubleHeader": "N",
+            "gamedayType": "P",
+            "tiebreaker": "N",
+            "calendarEventID": "14-565582-2019-09-14",
+            "seasonDisplay": "2019",
+            "dayNight": "night",
+            "scheduledInnings": 9,
+            "reverseHomeAwayStatus": false,
+            "inningBreakLength": 120,
+            "gamesInSeries": 4,
+            "seriesGameNumber": 2,
+            "seriesDescription": "Regular Season",
+            "recordSource": "S",
+            "ifNecessary": "N",
+            "ifNecessaryDescription": "Normal Game"
+          },
+          {
+            "gamePk": 567135,
+            "gameGuid": "a9647a4b-bacf-4880-b71e-b437ba568daa",
+            "link": "/api/v1.1/game/567135/feed/live",
+            "gameType": "R",
+            "season": "2019",
+            "gameDate": "2019-09-14T23:05:00Z",
+            "officialDate": "2019-09-14",
+            "status": {
+              "abstractGameState": "Final",
+              "codedGameState": "F",
+              "detailedState": "Final",
+              "statusCode": "F",
+              "startTimeTBD": false,
+              "abstractGameCode": "F"
+            },
+            "teams": {
+              "away": {
+                "leagueRecord": {
+                  "wins": 78,
+                  "losses": 70,
+                  "pct": ".527"
+                },
+                "score": 2,
+                "team": {
+                  "id": 111,
+                  "name": "Boston Red Sox",
+                  "link": "/api/v1/teams/111"
+                },
+                "isWinner": true,
+                "splitSquad": false,
+                "seriesNumber": 48
+              },
+              "home": {
+                "leagueRecord": {
+                  "wins": 76,
+                  "losses": 71,
+                  "pct": ".517"
+                },
+                "score": 1,
+                "team": {
+                  "id": 143,
+                  "name": "Philadelphia Phillies",
+                  "link": "/api/v1/teams/143"
+                },
+                "isWinner": false,
+                "splitSquad": false,
+                "seriesNumber": 48
+              }
+            },
+            "venue": {
+              "id": 2681,
+              "name": "Citizens Bank Park",
+              "link": "/api/v1/venues/2681"
+            },
+            "content": {
+              "link": "/api/v1/game/567135/content"
+            },
+            "isTie": false,
+            "gameNumber": 1,
+            "publicFacing": true,
+            "doubleHeader": "N",
+            "gamedayType": "P",
+            "tiebreaker": "N",
+            "calendarEventID": "14-567135-2019-09-14",
+            "seasonDisplay": "2019",
+            "dayNight": "night",
+            "scheduledInnings": 9,
+            "reverseHomeAwayStatus": false,
+            "inningBreakLength": 120,
+            "gamesInSeries": 2,
+            "seriesGameNumber": 1,
+            "seriesDescription": "Regular Season",
+            "recordSource": "S",
+            "ifNecessary": "N",
+            "ifNecessaryDescription": "Normal Game"
+          },
+          {
+            "gamePk": 566062,
+            "gameGuid": "9fcdc319-e6a0-4cd8-9f64-6211827c6033",
+            "link": "/api/v1.1/game/566062/feed/live",
+            "gameType": "R",
+            "season": "2019",
+            "gameDate": "2019-09-14T23:10:00Z",
+            "officialDate": "2019-09-14",
+            "status": {
+              "abstractGameState": "Final",
+              "codedGameState": "F",
+              "detailedState": "Final",
+              "statusCode": "F",
+              "startTimeTBD": false,
+              "abstractGameCode": "F"
+            },
+            "teams": {
+              "away": {
+                "leagueRecord": {
+                  "wins": 96,
+                  "losses": 54,
+                  "pct": ".640"
+                },
+                "score": 0,
+                "team": {
+                  "id": 119,
+                  "name": "Los Angeles Dodgers",
+                  "link": "/api/v1/teams/119"
+                },
+                "isWinner": false,
+                "splitSquad": false,
+                "seriesNumber": 48
+              },
+              "home": {
+                "leagueRecord": {
+                  "wins": 77,
+                  "losses": 71,
+                  "pct": ".520"
+                },
+                "score": 3,
+                "team": {
+                  "id": 121,
+                  "name": "New York Mets",
+                  "link": "/api/v1/teams/121"
+                },
+                "isWinner": true,
+                "splitSquad": false,
+                "seriesNumber": 48
+              }
+            },
+            "venue": {
+              "id": 3289,
+              "name": "Citi Field",
+              "link": "/api/v1/venues/3289"
+            },
+            "content": {
+              "link": "/api/v1/game/566062/content"
+            },
+            "isTie": false,
+            "gameNumber": 1,
+            "publicFacing": true,
+            "doubleHeader": "N",
+            "gamedayType": "P",
+            "tiebreaker": "N",
+            "calendarEventID": "14-566062-2019-09-14",
+            "seasonDisplay": "2019",
+            "dayNight": "night",
+            "scheduledInnings": 9,
+            "reverseHomeAwayStatus": false,
+            "inningBreakLength": 120,
+            "gamesInSeries": 3,
+            "seriesGameNumber": 2,
+            "seriesDescription": "Regular Season",
+            "recordSource": "S",
+            "ifNecessary": "N",
+            "ifNecessaryDescription": "Normal Game"
+          },
+          {
+            "gamePk": 565776,
+            "gameGuid": "394802a4-7ff4-4461-abd2-761421b31c35",
+            "link": "/api/v1.1/game/565776/feed/live",
+            "gameType": "R",
+            "season": "2019",
+            "gameDate": "2019-09-14T23:15:00Z",
+            "officialDate": "2019-09-14",
+            "status": {
+              "abstractGameState": "Final",
+              "codedGameState": "F",
+              "detailedState": "Final",
+              "statusCode": "F",
+              "startTimeTBD": false,
+              "abstractGameCode": "F"
+            },
+            "teams": {
+              "away": {
+                "leagueRecord": {
+                  "wins": 97,
+                  "losses": 53,
+                  "pct": ".647"
+                },
+                "score": 6,
+                "team": {
+                  "id": 117,
+                  "name": "Houston Astros",
+                  "link": "/api/v1/teams/117"
+                },
+                "isWinner": true,
+                "splitSquad": false,
+                "seriesNumber": 48
+              },
+              "home": {
+                "leagueRecord": {
+                  "wins": 55,
+                  "losses": 94,
+                  "pct": ".369"
+                },
+                "score": 1,
+                "team": {
+                  "id": 118,
+                  "name": "Kansas City Royals",
+                  "link": "/api/v1/teams/118"
+                },
+                "isWinner": false,
+                "splitSquad": false,
+                "seriesNumber": 48
+              }
+            },
+            "venue": {
+              "id": 7,
+              "name": "Kauffman Stadium",
+              "link": "/api/v1/venues/7"
+            },
+            "content": {
+              "link": "/api/v1/game/565776/content"
+            },
+            "isTie": false,
+            "gameNumber": 1,
+            "publicFacing": true,
+            "doubleHeader": "N",
+            "gamedayType": "P",
+            "tiebreaker": "N",
+            "calendarEventID": "14-565776-2019-09-14",
+            "seasonDisplay": "2019",
+            "dayNight": "night",
+            "scheduledInnings": 9,
+            "reverseHomeAwayStatus": false,
+            "inningBreakLength": 120,
+            "gamesInSeries": 3,
+            "seriesGameNumber": 2,
+            "seriesDescription": "Regular Season",
+            "recordSource": "S",
+            "ifNecessary": "N",
+            "ifNecessaryDescription": "Normal Game"
+          },
+          {
+            "gamePk": 566640,
+            "gameGuid": "afc6dc56-c6a0-496b-a07f-756f65e64577",
+            "link": "/api/v1.1/game/566640/feed/live",
+            "gameType": "R",
+            "season": "2019",
+            "gameDate": "2019-09-14T23:15:00Z",
+            "officialDate": "2019-09-14",
+            "status": {
+              "abstractGameState": "Final",
+              "codedGameState": "F",
+              "detailedState": "Final",
+              "statusCode": "F",
+              "startTimeTBD": false,
+              "abstractGameCode": "F"
+            },
+            "teams": {
+              "away": {
+                "leagueRecord": {
+                  "wins": 79,
+                  "losses": 69,
+                  "pct": ".534"
+                },
+                "score": 5,
+                "team": {
+                  "id": 158,
+                  "name": "Milwaukee Brewers",
+                  "link": "/api/v1/teams/158"
+                },
+                "isWinner": true,
+                "splitSquad": false,
+                "seriesNumber": 48
+              },
+              "home": {
+                "leagueRecord": {
+                  "wins": 83,
+                  "losses": 65,
+                  "pct": ".561"
+                },
+                "score": 2,
+                "team": {
+                  "id": 138,
+                  "name": "St. Louis Cardinals",
+                  "link": "/api/v1/teams/138"
+                },
+                "isWinner": false,
+                "splitSquad": false,
+                "seriesNumber": 48
+              }
+            },
+            "venue": {
+              "id": 2889,
+              "name": "Busch Stadium",
+              "link": "/api/v1/venues/2889"
+            },
+            "content": {
+              "link": "/api/v1/game/566640/content"
+            },
+            "isTie": false,
+            "gameNumber": 1,
+            "publicFacing": true,
+            "doubleHeader": "N",
+            "gamedayType": "P",
+            "tiebreaker": "N",
+            "calendarEventID": "14-566640-2019-09-14",
+            "seasonDisplay": "2019",
+            "dayNight": "night",
+            "scheduledInnings": 9,
+            "reverseHomeAwayStatus": false,
+            "inningBreakLength": 120,
+            "gamesInSeries": 3,
+            "seriesGameNumber": 2,
+            "seriesDescription": "Regular Season",
+            "recordSource": "S",
+            "ifNecessary": "N",
+            "ifNecessaryDescription": "Normal Game"
+          },
+          {
+            "gamePk": 566841,
+            "gameGuid": "64495748-3a6e-4aff-83e5-09371461e8f9",
+            "link": "/api/v1.1/game/566841/feed/live",
+            "gameType": "R",
+            "season": "2019",
+            "gameDate": "2019-09-15T00:05:00Z",
+            "officialDate": "2019-09-14",
+            "status": {
+              "abstractGameState": "Final",
+              "codedGameState": "F",
+              "detailedState": "Final",
+              "statusCode": "F",
+              "startTimeTBD": false,
+              "abstractGameCode": "F"
+            },
+            "teams": {
+              "away": {
+                "leagueRecord": {
+                  "wins": 89,
+                  "losses": 60,
+                  "pct": ".597"
+                },
+                "score": 8,
+                "team": {
+                  "id": 133,
+                  "name": "Oakland Athletics",
+                  "link": "/api/v1/teams/133"
+                },
+                "isWinner": true,
+                "splitSquad": false,
+                "seriesNumber": 49
+              },
+              "home": {
+                "leagueRecord": {
+                  "wins": 74,
+                  "losses": 76,
+                  "pct": ".493"
+                },
+                "score": 6,
+                "team": {
+                  "id": 140,
+                  "name": "Texas Rangers",
+                  "link": "/api/v1/teams/140"
+                },
+                "isWinner": false,
+                "splitSquad": false,
+                "seriesNumber": 48
+              }
+            },
+            "venue": {
+              "id": 13,
+              "name": "Globe Life Park in Arlington",
+              "link": "/api/v1/venues/13"
+            },
+            "content": {
+              "link": "/api/v1/game/566841/content"
+            },
+            "isTie": false,
+            "gameNumber": 1,
+            "publicFacing": true,
+            "doubleHeader": "N",
+            "gamedayType": "P",
+            "tiebreaker": "N",
+            "calendarEventID": "14-566841-2019-09-14",
+            "seasonDisplay": "2019",
+            "dayNight": "night",
+            "scheduledInnings": 9,
+            "reverseHomeAwayStatus": false,
+            "inningBreakLength": 120,
+            "gamesInSeries": 3,
+            "seriesGameNumber": 2,
+            "seriesDescription": "Regular Season",
+            "recordSource": "S",
+            "ifNecessary": "N",
+            "ifNecessaryDescription": "Normal Game"
+          },
+          {
+            "gamePk": 564903,
+            "gameGuid": "b34b4307-c3e1-432b-aba9-e44ea74cd6fd",
+            "link": "/api/v1.1/game/564903/feed/live",
+            "gameType": "R",
+            "season": "2019",
+            "gameDate": "2019-09-15T00:10:00Z",
+            "officialDate": "2019-09-14",
+            "status": {
+              "abstractGameState": "Final",
+              "codedGameState": "F",
+              "detailedState": "Final",
+              "statusCode": "F",
+              "startTimeTBD": false,
+              "abstractGameCode": "F"
+            },
+            "teams": {
+              "away": {
+                "leagueRecord": {
+                  "wins": 69,
+                  "losses": 80,
+                  "pct": ".463"
+                },
+                "score": 0,
+                "team": {
+                  "id": 113,
+                  "name": "Cincinnati Reds",
+                  "link": "/api/v1/teams/113"
+                },
+                "isWinner": false,
+                "splitSquad": false,
+                "seriesNumber": 48
+              },
+              "home": {
+                "leagueRecord": {
+                  "wins": 76,
+                  "losses": 73,
+                  "pct": ".510"
+                },
+                "score": 1,
+                "team": {
+                  "id": 109,
+                  "name": "Arizona Diamondbacks",
+                  "link": "/api/v1/teams/109"
+                },
+                "isWinner": true,
+                "splitSquad": false,
+                "seriesNumber": 48
+              }
+            },
+            "venue": {
+              "id": 15,
+              "name": "Chase Field",
+              "link": "/api/v1/venues/15"
+            },
+            "content": {
+              "link": "/api/v1/game/564903/content"
+            },
+            "isTie": false,
+            "gameNumber": 1,
+            "publicFacing": true,
+            "doubleHeader": "N",
+            "gamedayType": "P",
+            "tiebreaker": "N",
+            "calendarEventID": "14-564903-2019-09-14",
+            "seasonDisplay": "2019",
+            "dayNight": "night",
+            "scheduledInnings": 9,
+            "reverseHomeAwayStatus": false,
+            "inningBreakLength": 120,
+            "gamesInSeries": 3,
+            "seriesGameNumber": 2,
+            "seriesDescription": "Regular Season",
+            "recordSource": "S",
+            "ifNecessary": "N",
+            "ifNecessaryDescription": "Normal Game"
+          },
+          {
+            "gamePk": 565486,
+            "gameGuid": "696a594b-ac99-48b9-9c8d-7a25d4f2395b",
+            "link": "/api/v1.1/game/565486/feed/live",
+            "gameType": "R",
+            "season": "2019",
+            "gameDate": "2019-09-15T00:10:00Z",
+            "officialDate": "2019-09-14",
+            "status": {
+              "abstractGameState": "Final",
+              "codedGameState": "F",
+              "detailedState": "Final",
+              "statusCode": "F",
+              "startTimeTBD": false,
+              "abstractGameCode": "F"
+            },
+            "teams": {
+              "away": {
+                "leagueRecord": {
+                  "wins": 68,
+                  "losses": 80,
+                  "pct": ".459"
+                },
+                "score": 10,
+                "team": {
+                  "id": 135,
+                  "name": "San Diego Padres",
+                  "link": "/api/v1/teams/135"
+                },
+                "isWinner": false,
+                "splitSquad": false,
+                "seriesNumber": 48
+              },
+              "home": {
+                "leagueRecord": {
+                  "wins": 64,
+                  "losses": 85,
+                  "pct": ".430"
+                },
+                "score": 11,
+                "team": {
+                  "id": 115,
+                  "name": "Colorado Rockies",
+                  "link": "/api/v1/teams/115"
+                },
+                "isWinner": true,
+                "splitSquad": false,
+                "seriesNumber": 49
+              }
+            },
+            "venue": {
+              "id": 19,
+              "name": "Coors Field",
+              "link": "/api/v1/venues/19"
+            },
+            "content": {
+              "link": "/api/v1/game/565486/content"
+            },
+            "isTie": false,
+            "gameNumber": 1,
+            "publicFacing": true,
+            "doubleHeader": "N",
+            "gamedayType": "P",
+            "tiebreaker": "N",
+            "calendarEventID": "14-565486-2019-09-14",
+            "seasonDisplay": "2019",
+            "dayNight": "night",
+            "scheduledInnings": 9,
+            "reverseHomeAwayStatus": false,
+            "inningBreakLength": 120,
+            "gamesInSeries": 3,
+            "seriesGameNumber": 2,
+            "seriesDescription": "Regular Season",
+            "recordSource": "S",
+            "ifNecessary": "N",
+            "ifNecessaryDescription": "Normal Game"
+          },
+          {
+            "gamePk": 566544,
+            "gameGuid": "a05e2681-459a-4a8d-a7d4-09ef1bc17cf5",
+            "link": "/api/v1.1/game/566544/feed/live",
+            "gameType": "R",
+            "season": "2019",
+            "gameDate": "2019-09-15T01:05:00Z",
+            "officialDate": "2019-09-14",
+            "status": {
+              "abstractGameState": "Final",
+              "codedGameState": "F",
+              "detailedState": "Final",
+              "statusCode": "F",
+              "startTimeTBD": false,
+              "abstractGameCode": "F"
+            },
+            "teams": {
+              "away": {
+                "leagueRecord": {
+                  "wins": 52,
+                  "losses": 96,
+                  "pct": ".351"
+                },
+                "score": 4,
+                "team": {
+                  "id": 146,
+                  "name": "Miami Marlins",
+                  "link": "/api/v1/teams/146"
+                },
+                "isWinner": true,
+                "splitSquad": false,
+                "seriesNumber": 48
+              },
+              "home": {
+                "leagueRecord": {
+                  "wins": 71,
+                  "losses": 78,
+                  "pct": ".477"
+                },
+                "score": 2,
+                "team": {
+                  "id": 137,
+                  "name": "San Francisco Giants",
+                  "link": "/api/v1/teams/137"
+                },
+                "isWinner": false,
+                "splitSquad": false,
+                "seriesNumber": 48
+              }
+            },
+            "venue": {
+              "id": 2395,
+              "name": "Oracle Park",
+              "link": "/api/v1/venues/2395"
+            },
+            "content": {
+              "link": "/api/v1/game/566544/content"
+            },
+            "isTie": false,
+            "gameNumber": 1,
+            "publicFacing": true,
+            "doubleHeader": "N",
+            "gamedayType": "P",
+            "tiebreaker": "N",
+            "calendarEventID": "14-566544-2019-09-14",
+            "seasonDisplay": "2019",
+            "dayNight": "night",
+            "scheduledInnings": 9,
+            "reverseHomeAwayStatus": false,
+            "inningBreakLength": 120,
+            "gamesInSeries": 3,
+            "seriesGameNumber": 2,
+            "seriesDescription": "Regular Season",
+            "recordSource": "S",
+            "ifNecessary": "N",
+            "ifNecessaryDescription": "Normal Game"
+          },
+          {
+            "gamePk": 564807,
+            "gameGuid": "c87c375d-1d20-4fc0-8fbb-68f2e4568673",
+            "link": "/api/v1.1/game/564807/feed/live",
+            "gameType": "R",
+            "season": "2019",
+            "gameDate": "2019-09-15T01:07:00Z",
+            "officialDate": "2019-09-14",
+            "status": {
+              "abstractGameState": "Final",
+              "codedGameState": "F",
+              "detailedState": "Final",
+              "statusCode": "F",
+              "startTimeTBD": false,
+              "abstractGameCode": "F"
+            },
+            "teams": {
+              "away": {
+                "leagueRecord": {
+                  "wins": 89,
+                  "losses": 61,
+                  "pct": ".593"
+                },
+                "score": 3,
+                "team": {
+                  "id": 139,
+                  "name": "Tampa Bay Rays",
+                  "link": "/api/v1/teams/139"
+                },
+                "isWinner": true,
+                "splitSquad": false,
+                "seriesNumber": 48
+              },
+              "home": {
+                "leagueRecord": {
+                  "wins": 67,
+                  "losses": 82,
+                  "pct": ".450"
+                },
+                "score": 1,
+                "team": {
+                  "id": 108,
+                  "name": "Los Angeles Angels",
+                  "link": "/api/v1/teams/108"
+                },
+                "isWinner": false,
+                "splitSquad": false,
+                "seriesNumber": 49
+              }
+            },
+            "venue": {
+              "id": 1,
+              "name": "Angel Stadium",
+              "link": "/api/v1/venues/1"
+            },
+            "content": {
+              "link": "/api/v1/game/564807/content"
+            },
+            "isTie": false,
+            "gameNumber": 1,
+            "publicFacing": true,
+            "doubleHeader": "N",
+            "gamedayType": "P",
+            "tiebreaker": "N",
+            "calendarEventID": "14-564807-2019-09-14",
+            "seasonDisplay": "2019",
+            "dayNight": "night",
+            "scheduledInnings": 9,
+            "reverseHomeAwayStatus": false,
+            "inningBreakLength": 120,
+            "gamesInSeries": 3,
+            "seriesGameNumber": 2,
+            "seriesDescription": "Regular Season",
+            "recordSource": "S",
+            "ifNecessary": "N",
+            "ifNecessaryDescription": "Normal Game"
+          },
+          {
+            "gamePk": 566445,
+            "gameGuid": "05ae932d-71f6-4bc9-8b36-1282840b71e4",
+            "link": "/api/v1.1/game/566445/feed/live",
+            "gameType": "R",
+            "season": "2019",
+            "gameDate": "2019-09-15T01:10:00Z",
+            "officialDate": "2019-09-14",
+            "status": {
+              "abstractGameState": "Final",
+              "codedGameState": "F",
+              "detailedState": "Final",
+              "statusCode": "F",
+              "startTimeTBD": false,
+              "abstractGameCode": "F"
+            },
+            "teams": {
+              "away": {
+                "leagueRecord": {
+                  "wins": 65,
+                  "losses": 83,
+                  "pct": ".439"
+                },
+                "score": 1,
+                "team": {
+                  "id": 145,
+                  "name": "Chicago White Sox",
+                  "link": "/api/v1/teams/145"
+                },
+                "isWinner": false,
+                "splitSquad": false,
+                "seriesNumber": 48
+              },
+              "home": {
+                "leagueRecord": {
+                  "wins": 61,
+                  "losses": 88,
+                  "pct": ".409"
+                },
+                "score": 2,
+                "team": {
+                  "id": 136,
+                  "name": "Seattle Mariners",
+                  "link": "/api/v1/teams/136"
+                },
+                "isWinner": true,
+                "splitSquad": false,
+                "seriesNumber": 49
+              }
+            },
+            "venue": {
+              "id": 680,
+              "name": "T-Mobile Park",
+              "link": "/api/v1/venues/680"
+            },
+            "content": {
+              "link": "/api/v1/game/566445/content"
+            },
+            "isTie": false,
+            "gameNumber": 1,
+            "publicFacing": true,
+            "doubleHeader": "N",
+            "gamedayType": "P",
+            "tiebreaker": "N",
+            "calendarEventID": "14-566445-2019-09-14",
+            "seasonDisplay": "2019",
+            "dayNight": "night",
+            "scheduledInnings": 9,
+            "reverseHomeAwayStatus": false,
+            "inningBreakLength": 120,
+            "gamesInSeries": 3,
+            "seriesGameNumber": 2,
+            "seriesDescription": "Regular Season",
+            "recordSource": "S",
+            "ifNecessary": "N",
+            "ifNecessaryDescription": "Normal Game"
+          }
+        ],
+        "events": []
+      }
+    ]
+  }
