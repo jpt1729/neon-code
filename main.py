@@ -47,27 +47,48 @@ display = framebufferio.FramebufferDisplay(matrix, auto_refresh=False)
 line1 = adafruit_display_text.label.Label(
     terminalio.FONT,
     color=0xEB6E1F,
-    text="This scroller is brought to you by CircuitPython RGBMatrix")
+    text="")
 line1.x = display.width
 line1.y = 8
 
 line2 = adafruit_display_text.label.Label(
     terminalio.FONT,
     color=0x0080ff,
-    text="Hello to all CircuitPython contributors worldwide <3")
+    text="")
 line2.x = display.width
 line2.y = 24
+
+line3 = adafruit_display_text.label.Label(
+    terminalio.FONT,
+    color=0x0080ff,
+    text="")
+line3.x = 0
+line3.y = 16
+
 
 # Put each line of text into a Group, then show that group.
 g = displayio.Group()
 g.append(line1)
 g.append(line2)
+g.append(line3)
 display.root_group = g
 
 # This function will scoot one label a pixel to the left and send it back to
 # the far right if it's gone all the way off screen. This goes in a function
 # because we'll do exactly the same thing with line1 and line2 below.
 
+def GameUpdate(text):
+    print(f'Updating {text}')
+    line1.text, line2.text = "", ""
+    line3.text = text
+
+    t = 0
+    while t != 30:
+        scroll(line3)
+        t += 0.5
+        display.refresh(minimum_frames_per_second=0)
+        time.sleep(0.5)
+    return None
 
 def scroll(line):
     line.x = line.x - 1
@@ -128,8 +149,8 @@ def get_astros_scores():
 
     return astros_score, other_team_score
 
-
 while True:
+    tracker += 1
     game = get_astros_scores()
     if game == None:
         line1.text = f"No game playing"
@@ -138,4 +159,4 @@ while True:
     scroll(line1)
     reverse_scroll(line2)
     display.refresh(minimum_frames_per_second=0)
-    time.sleep(0.1)
+    time.sleep(0.05)
