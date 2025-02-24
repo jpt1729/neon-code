@@ -11,6 +11,7 @@ app.get("/api/astros-playing", async (req, res) => {
     res.send({ playing: false });
     return;
   }
+  try {
   const astrosGame = data.dates[0].games.filter(
     (game) => game.teams.away.team.id === 117 || game.teams.home.team.id === 117
   )[0];
@@ -18,13 +19,23 @@ app.get("/api/astros-playing", async (req, res) => {
     res.send({ playing: false });
     return;
   }
+  if (astrosGame.status.statusCode === "F"){
+    res.send({ playing: false });
+    return;
+  }
   res.send({
     playing: true,
+    error: false,
     team: astrosGame.teams.away.team.id === 117 ? "away" : "home",
     game: astrosGame,
   });
+} catch (err) {
+  res.send({error: true, ...err})
+}
 });
 
+
+
 app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`);
+  console.log(`Astros App app listening on port ${port}`);
 });

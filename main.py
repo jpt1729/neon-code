@@ -150,7 +150,6 @@ def get_astros_scores():
     return astros_score, other_team_score
 
 while True:
-    tracker += 1
     game = get_astros_scores()
     if game == None:
         line1.text = f"No game playing"
