@@ -19,7 +19,7 @@ app.get("/api/astros-playing", async (req, res) => {
     res.send({ playing: false });
     return;
   }
-  if (astrosGame.status.statusCode === "F"){
+  if (astrosGame.status.statusCode === "F" || astrosGame.status.abstractGameCode === "F"){
     res.send({ playing: false });
     return;
   }
